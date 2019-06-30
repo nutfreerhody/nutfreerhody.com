@@ -1,0 +1,48 @@
+baseURL = "https://nutfreerhody.com/"
+languageCode = "en-us"
+title = "Nut Free Rhody"
+theme = "ezhil"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = ""
+disqusShortname = "localhost"
+
+[params]
+	subtitle = "One families exploration of nut free food in Rhode Island and beyond"
+	# Number of posts to show in recent posts list.
+	recentPostsCount = 10
+	# Content types which are excluded from recent posts and archive page.
+	excludedTypes = ["page"]
+	disableDisqusTypes = ["page"]
+	featherIconsCDN = true
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "The List"
+url = "/list"
+weight = 4
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/nutfreerhody"
+
+[taxonomies]
+   tag = "tags"
