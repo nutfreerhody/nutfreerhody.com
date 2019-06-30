@@ -10,6 +10,9 @@ pygmentscodefencesguesssyntax = true
 googleAnalytics = ""
 disqusShortname = "localhost"
 
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+
 [params]
 	subtitle = "One families exploration of nut free food in Rhode Island and beyond"
 	# Number of posts to show in recent posts list.
